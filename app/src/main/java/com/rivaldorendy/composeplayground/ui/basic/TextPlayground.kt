@@ -3,10 +3,7 @@ package com.rivaldorendy.composeplayground.ui.basic
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.LocalTextStyle
-import androidx.compose.material3.MaterialTheme.colorScheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -20,21 +17,13 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import com.rivaldorendy.composeplayground.theme.ComposePlaygroundTheme
 
 class TextPlayground : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposePlaygroundTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
-            }
+            Greeting("Android")
         }
     }
 }
@@ -66,16 +55,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun GreetingPreview() {
-    ComposePlaygroundTheme {
-        Surface(
-            modifier = Modifier.fillMaxSize(),
-            color = colorScheme.background
-        ) {
-            Greeting("Android")
-        }
-    }
+    Greeting("Android")
 }
+
 

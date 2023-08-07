@@ -94,6 +94,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun getComponents() = listOf(
+        Menu("Android Views (Xml in Compose View)", TextPlayground::class.java),
         Menu("Android Views (Xml in Compose View)", TextPlayground::class.java)
     )
 }
