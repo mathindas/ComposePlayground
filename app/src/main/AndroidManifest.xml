@@ -31,6 +31,12 @@
         <activity
             android:name=".ui.basic.TextPlayground"
             android:theme="@style/Theme.ComposePlayground" />
+        <activity
+            android:name=".ui.basic.RowColumnPlayground"
+            android:theme="@style/Theme.ComposePlayground" />
+        <activity
+            android:name=".ui.basic.ButtonPlayground"
+            android:theme="@style/Theme.ComposePlayground" />
     </application>
 
 </manifest>

@@ -34,6 +34,8 @@ import com.rivaldorendy.composeplayground.theme.AppThemeState
 import com.rivaldorendy.composeplayground.theme.BaseView
 import com.rivaldorendy.composeplayground.theme.SystemUiController
 import com.rivaldorendy.composeplayground.model.Menu
+import com.rivaldorendy.composeplayground.ui.basic.ButtonPlayground
+import com.rivaldorendy.composeplayground.ui.basic.RowColumnPlayground
 import com.rivaldorendy.composeplayground.ui.basic.TextPlayground
 
 @ExperimentalComposeUiApi
@@ -76,7 +78,7 @@ class MainActivity : ComponentActivity() {
                 context.startActivity(Intent(applicationContext, className))
             },
             modifier = Modifier
-                .padding(16.dp)
+                .padding(4.dp)
                 .fillMaxWidth(),
             shape = RoundedCornerShape(8.dp),
             colors = ButtonDefaults.buttonColors(backgroundColor = MaterialTheme.colors.primary.copy(0.04f)),
@@ -94,7 +96,8 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun getComponents() = listOf(
-        Menu("Android Views (Xml in Compose View)", TextPlayground::class.java),
-        Menu("Android Views (Xml in Compose View)", TextPlayground::class.java)
+        Menu(getString(R.string.text_playground), TextPlayground::class.java),
+        Menu(getString(R.string.row_and_column_playground), RowColumnPlayground::class.java),
+        Menu(getString(R.string.button_playground), ButtonPlayground::class.java)
     )
 }

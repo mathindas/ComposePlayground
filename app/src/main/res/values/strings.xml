@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Compose Playground</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="text_playground">Text Playground</string>
+    <string name="row_and_column_playground">Row and Column Playground</string>
+    <string name="button_playground">Button Playground</string>
 </resources>
