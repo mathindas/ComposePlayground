@@ -4,4 +4,7 @@
     <string name="text_playground">Text Playground</string>
     <string name="row_and_column_playground">Row and Column Playground</string>
     <string name="button_playground">Button Playground</string>
+    <string name="modifier_playground">Modifier Playground</string>
+    <string name="state_playground">State Playground</string>
+    <string name="list_playground">List Playground</string>
 </resources>
