@@ -37,6 +37,18 @@
         <activity
             android:name=".ui.basic.ButtonPlayground"
             android:theme="@style/Theme.ComposePlayground" />
+        <activity
+            android:name=".ui.basic.ModifierPlayground"
+            android:theme="@style/Theme.ComposePlayground" />
+        <activity
+            android:name=".ui.basic.StatePlayground"
+            android:theme="@style/Theme.ComposePlayground" />
+        <activity
+            android:name=".ui.basic.ListPlayground"
+            android:theme="@style/Theme.ComposePlayground" />
+        <activity
+            android:name=".ui.basic.AnimatePlayground"
+            android:theme="@style/Theme.ComposePlayground" />
     </application>
 
 </manifest>
