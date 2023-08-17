@@ -36,6 +36,7 @@ import com.rivaldorendy.composeplayground.theme.SystemUiController
 import com.rivaldorendy.composeplayground.model.Menu
 import com.rivaldorendy.composeplayground.ui.basic.AnimatePlayground
 import com.rivaldorendy.composeplayground.ui.basic.ButtonPlayground
+import com.rivaldorendy.composeplayground.ui.basic.ImagePlayground
 import com.rivaldorendy.composeplayground.ui.basic.ListPlayground
 import com.rivaldorendy.composeplayground.ui.basic.ModifierPlayground
 import com.rivaldorendy.composeplayground.ui.basic.RowColumnPlayground
@@ -106,6 +107,7 @@ class MainActivity : ComponentActivity() {
         Menu(getString(R.string.modifier_playground), ModifierPlayground::class.java),
         Menu(getString(R.string.state_playground), StatePlayground::class.java),
         Menu(getString(R.string.list_playground), ListPlayground::class.java),
-        Menu(getString(R.string.animate_playground), AnimatePlayground::class.java)
+        Menu(getString(R.string.animate_playground), AnimatePlayground::class.java),
+        Menu(getString(R.string.image_playground), ImagePlayground::class.java)
     )
 }

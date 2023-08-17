@@ -49,6 +49,9 @@
         <activity
             android:name=".ui.basic.AnimatePlayground"
             android:theme="@style/Theme.ComposePlayground" />
+        <activity
+            android:name=".ui.basic.ImagePlayground"
+            android:theme="@style/Theme.ComposePlayground" />
     </application>
 
 </manifest>

@@ -8,4 +8,5 @@
     <string name="state_playground">State Playground</string>
     <string name="list_playground">List Playground</string>
     <string name="animate_playground">Animate Playground</string>
+    <string name="image_playground">Image Playground</string>
 </resources>
